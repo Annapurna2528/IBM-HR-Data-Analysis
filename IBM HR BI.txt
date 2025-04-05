@@ -1,0 +1,142 @@
+KPI Cards: 
+overall employees 
+Attrition Rate,
+ Average Monthly Income,
+PerformanceRating
+Age.
+
+charts
+
+Bar Chart: Attrition by Department
+ table          job level
+Box Plot: Salary Distribution for employees who left vs. stayed
+Line Chart: Attrition trend by Age
+Pie Chart: Attrition distribution by Job Role
+
+
+Slicers: 
+Department, 
+Job Role, 
+Education Level, 
+Gender
+
+
+HR Employee Attrition Analysis & Power BI Dashboard
+
+1. Problem Statement
+
+Employee attrition is a major concern for organizations, impacting productivity and operational costs. The goal of this analysis is to identify factors influencing employee turnover and create a Power BI dashboard to visualize key insights.
+
+2. Dataset Overview
+
+Source: HR Employee Attrition dataset
+
+Total Records: 1,470 employees
+
+Key Features: Age, Department, Job Role, Monthly Income, Job Satisfaction, Work-Life Balance, Attrition Status, etc.
+
+3. Data Cleaning & Preparation
+
+Removed irrelevant columns: EmployeeCount, Over18, StandardHours
+
+Checked and handled missing values: None found
+
+Ensured categorical consistency
+
+Verified numerical data integrity
+
+4. Key Insights & Metrics
+
+Attrition Rate: 16.12% employees have left.
+
+Attrition by Department:
+
+Research & Development: 133 employees
+
+Sales: 92 employees
+
+Human Resources: 12 employees
+
+Salary vs. Attrition:
+
+Employees who stayed earn an average of ₹6,832.
+
+Employees who left earn an average of ₹4,787.
+
+Lower salaries correlate with higher attrition.
+
+Job Satisfaction & Attrition:
+
+Employees who stayed: 2.78 (out of 4)
+
+Employees who left: 2.47 (out of 4)
+
+Dissatisfied employees are more likely to leave.
+
+Age & Attrition Trends:
+
+Average age of employees who left: 33.6 years
+
+Most at-risk age group: 28-39 years
+
+5. Power BI Dashboard Overview
+
+KPI Definitions:
+
+Attrition Rate:
+
+Formula: (Employees Who Left / Total Employees) × 100
+
+Importance: Helps HR track overall turnover trends.
+
+Average Monthly Salary:
+
+Formula: Total Monthly Income / Total Employees
+
+Importance: Indicates salary competitiveness and its impact on retention.
+
+Job Satisfaction Score:
+
+Formula: Average Job Satisfaction (Scale 1-4)
+
+Importance: Identifies if job satisfaction influences attrition.
+
+Average Tenure of Employees Who Left:
+
+Formula: Total Years at Company / Employees Who Left
+
+Importance: Shows how long employees stay before leaving.
+
+Attrition by Department:
+
+Formula: (Employees Who Left in Dept / Total Employees in Dept) × 100
+
+Importance: Identifies departments with the highest attrition.
+
+Visuals Included:
+
+✅ KPI Cards: Attrition Rate, Average Salary, Job Satisfaction, Avg Tenure
+✅ Bar Chart: Attrition by Department
+✅ Box Plot: Salary Distribution (Stayed vs. Left)
+✅ Line Chart: Attrition by Age Group
+✅ Pie Chart: Attrition by Job Role
+✅ Slicers: Department, Job Role, Education, Gender
+
+6. Conclusion & Business Recommendations
+
+Increase Salary Competitiveness: Employees with lower salaries are more likely to leave.
+
+Improve Job Satisfaction: Conduct employee engagement programs.
+
+Focus on At-Risk Groups: Retain employees aged 28-39 by offering better career progression.
+
+Monitor High Attrition Departments: Research & Development and Sales need targeted retention strategies.
+
+7. Next Steps
+
+Implement real-time attrition tracking in Power BI.
+
+Develop predictive models to forecast attrition.
+
+Enhance HR policies based on insights from the dashboard.
+
